@@ -1,17 +1,17 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "luajwt"
-version = "1.3-2"
+version = "1.3-4"
 
 -- LuaDist source
 source = {
-  tag = "1.3-2",
+  tag = "1.3-4",
   url = "git://github.com/LuaDist-testing/luajwt.git"
 }
 -- Original source
 -- source = {
 -- 	url = "git://github.com/x25/luajwt",
--- 	tag = "v1.3"
+-- 	tag = "v1.4"
 -- }
 
 description = {
@@ -25,7 +25,7 @@ dependencies = {
 	"lua >= 5.1",
 	"luacrypto >= 0.3.2-1",
 	"lua-cjson >= 2.1.0",
-	"lbase64 >= 20120820-1"
+	"lbase64 >= 20120807-3"
 }
 
 build = {
