@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "luajwt"
-version = "1.2-1"
+version = "1.2-2"
 
 -- LuaDist source
 source = {
-  tag = "1.2-1",
+  tag = "1.2-2",
   url = "git://github.com/LuaDist-testing/luajwt.git"
 }
 -- Original source
@@ -29,8 +29,8 @@ dependencies = {
 }
 
 build = {
-	type = "none",
-	install = {
-		lua = { "luajwt.lua" }
+	type = "builtin",
+	modules = {
+		luajwt = "luajwt.lua"
 	}
 }
