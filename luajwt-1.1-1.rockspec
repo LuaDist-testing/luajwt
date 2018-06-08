@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "luajwt"
-version = "1.0-1"
+version = "1.1-1"
 -- LuaDist source
 source = {
-  tag = "1.0-1",
+  tag = "1.1-1",
   url = "git://github.com/LuaDist-testing/luajwt.git"
 }
 -- Original source
 -- source = {
 --   url = "git://github.com/x25/luajwt",
---   tag = "1.0.1"
+--   tag = "v1.1"
 -- }
 description = {
   summary = "JSON Web Tokens for Lua",
